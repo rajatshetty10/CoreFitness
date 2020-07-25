@@ -33,6 +33,7 @@ body a{
 .container{
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 2rem;
 }
 
 /* Heading */
@@ -218,11 +219,6 @@ body a{
 	justify-content: center;
 	height: 100%;
 	width: 50%;
-}
-
-.showcase .showcase-content .showcase-content-left h3{
-	font-size: 2rem;
-	color: var(-secondary-color);
 }
 
 .showcase .showcase-content .showcase-content-left h1 .big{
@@ -544,7 +540,7 @@ input[type="submit"], input[type="button"]{
 
 /* Footer Left Side*/
 /*Footer: Help */
-.footer .help h6 ul li{
+.footer .help h6 ul{
 	display: grid;
 	grid-template-rows: 1rem;
 }

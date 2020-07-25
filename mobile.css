@@ -1,0 +1,111 @@
+/* Responsive: SmartPhones (600px) */
+@media screen and (max-width: 600px) {
+
+    /* -------------------------- Page: Header --------------------- */
+    .heading-up{
+        display: none;
+    }
+
+    .heading-down{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    /* ----------------------------- Homepage: Main -------------------------- */
+    .showcase .showcase-content .showcase-content-left h1 .big{
+        font-size: 1rem;
+    }
+
+    /* -------------------------------- Facilities: Facility ----------------------- */
+    #facilities .facilities-main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery{
+        padding: 1rem;
+    }
+
+    #facilities .facilities-main .facilities{
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+     /* -------------------------------------Instructors -------------------------------- */
+    #instructors .instructors-main{
+        grid-template-columns: 1fr;
+    }
+
+    /* -------------------------------------------- Membership ----------------------------- */
+    #membership .membership-table table thead tr th{
+        font-size: 0.4rem;
+        text-align: center;
+    }
+
+    #membership .membership-table table tbody tr td{
+        font-size: 0.5rem;
+    }
+
+    #membership .membership-table h4{
+        font-size: 0.7rem;
+    }
+
+    #membership .membership-table h5 p{
+        font-size: 0.6rem;
+    }
+
+     /* ----------------------------------------- Gallery Page ---------------------------- */
+    .gallery-pics{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.5rem;
+    }
+
+    /* ------------------------------------------ Login Page ------------------------------- */
+    .login-main > form, .signup-main > form{
+        width: 120%;
+    }
+
+    input{
+        font-size: 0.8rem;
+    }
+
+    /* Login Page: Buttons */
+    .buttons .btn-2,
+    .buttons .btn-1{
+        width: 65%;
+        margin-bottom: 0.5rem;
+    }
+
+    input[type="submit"], input[type="button"]{
+        font-size: 10px;
+    }
+
+    .login-main > a{
+        justify-content: center;
+        font-size: 0.7rem;
+    }
+    
+
+    /* -------------------------------------- Sign Up Page ------------------------------- */
+    .signup-main{
+        padding: 0 4rem;
+    }
+
+
+    /* -------------------------------------------- Footer ------------------------------- */
+    .footer{
+        font-size: 0.6rem;
+    }
+
+    .contact-copy .contact ul{
+        padding-bottom: 0rem;
+    }
+
+    .contact-copy .contact ul li{
+        padding: 0.5rem;
+    }
+
+    .contact-copy .flag img{
+        width: 50px;
+    }
+}
