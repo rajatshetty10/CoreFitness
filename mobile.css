@@ -32,6 +32,12 @@
     font-size: 1.5rem;
   }
 
+  .heading-up .left,
+  .heading-up .right {
+    background: transparent;
+    width: 40%;
+  }
+
   .heading-up .left ul,
   .heading-up .right ul {
     display: flex;
@@ -39,10 +45,9 @@
     align-items: center;
   }
 
-  .heading-up .left,
-  .heading-up .right {
-    background: #fff;
-    width: 40%;
+  .heading-up .left ul li,
+  .heading-up .right ul li {
+    padding: 0.3rem;
   }
 
   .heading-up .left {
