@@ -41,16 +41,20 @@
 
   .heading-up .left,
   .heading-up .right {
-    flex: 1;
     background: #fff;
+    width: 40%;
   }
 
   .heading-up .left {
-    transform: translateX(-110%);
+    animation: leftAnimate 1s ease-in;
   }
 
   .heading-up .right {
-    transform: translateX(110%);
+    animation: rightAnimate 1s ease-in;
+  }
+
+  .heading-down input[type="checkbox"]:checked {
+    animation: leftAnimate 0.2s ease-in;
   }
 
   /* ----------------------------- Homepage: Main -------------------------- */
@@ -149,5 +153,25 @@
 
   .contact-copy .flag img {
     width: 50px;
+  }
+
+  @keyframes leftAnimate {
+    0% {
+      transform: translateX(-120%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes rightAnimate {
+    0% {
+      transform: translateX(120%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
   }
 }
